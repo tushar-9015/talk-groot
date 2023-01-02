@@ -1,0 +1,79 @@
+:root {
+    --black: rgb(48, 36, 36);
+    --primary: #468352;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-image: "https://unsplash.com/@introspectivedsgn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText";
+}
+
+body {
+    color: var(--black);
+    font-family: 'Kalam', cursive;
+    margin: 0px;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.text-style {
+    font-size: large;    
+}
+
+
+textarea {
+    width: 98%;
+    height: 20vh;
+    display: block;
+    margin: 1rem auto;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+.btn-translate {
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    background-color: var(--primary);
+}    
+
+#translate-output {
+    box-sizing: border-box;
+    width: 95%;
+    margin: auto;
+    height: 20vh;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);    
+}
+
+footer{
+    margin-top: 5vh;
+    background-color: var(--primary);
+    text-align: center;
+    padding: 2rem;
+}
+
+#footer-header {
+    padding: 2rem;
+    font-size: 30px;
+}
+
+#connect {
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+a, 
+i {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
